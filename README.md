@@ -1,0 +1,3 @@
+# Elixir Bug: Unexpected List Modification During Enum.each
+
+This repository demonstrates a common Elixir bug related to modifying a list while iterating over it with `Enum.each`. The provided code attempts to remove an element from a list while iterating, but the list remains unchanged due to immutability.  The solution showcases the correct way to handle such list modifications using different approaches.
